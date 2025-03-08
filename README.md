@@ -16,28 +16,25 @@
 azure-integrations-cli/
 ├── azints/                     # Main package
 │   ├── __init__.py             # Package initialization (holds version info)
-│   ├── __main__.py             # Entry point for "python -m azureintegrationscli"
 │   └── cli.py                  # CLI implementation using Click
-├── tests/                      # Tests folder
-│   └── test_cli.py             # Future tests
 ├── .gitignore                  # Typical Python .gitignore entries
 ├── LICENSE                     # License file
+├── pyproject.toml              # Packaging configuration
 ├── README.md                   # Project documentation (this file)
-├── requirements.txt            # List of dependencies (e.g. Click)
-└── setup.py                    # Packaging configuration
+└── requirements.txt            # List of dependencies (e.g. Click)
 ```
 
 ## Installation
 
 ### From repository
 
-Clone the repository and install glboally using pipx:
+Clone the repository and install globally using pipx:
 
 ```shell
-pipx install .
+pipx install . --force    
 ```
 
-This will install the package and make the azints command available globally.
+This will install the package and make the ```azints``` command available globally.
 
 ### From PyPI (When Published)
 
