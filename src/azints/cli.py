@@ -1,6 +1,5 @@
-# azureintegrationscli/cli.py
 import click
-from azureintegrationscli import __version__
+from azints import __version__
 
 @click.group()
 @click.version_option(__version__, prog_name="azints")

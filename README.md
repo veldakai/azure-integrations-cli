@@ -29,12 +29,12 @@ azure-integrations-cli/
 
 ## Installation
 
-### Editable Mode
+### From repository
 
-Clone the repository and install in editable mode so changes are reflected immediately:
+Clone the repository and install glboally using pipx:
 
 ```shell
-pip install -e .
+pipx install .
 ```
 
 This will install the package and make the azints command available globally.
@@ -44,7 +44,7 @@ This will install the package and make the azints command available globally.
 If published to PyPI, you can install it using:
 
 ```shell
-pip install azure-integrations-cli
+pipx install azure-integrations-cli
 ```
 
 ## Usage
