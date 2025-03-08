@@ -14,7 +14,7 @@
 
 ```plaintext
 azure-integrations-cli/
-├── azureintegrationscli/         # Main package
+├── azureintegrationscli/       # Main package
 │   ├── __init__.py             # Package initialization (holds version info)
 │   ├── __main__.py             # Entry point for "python -m azureintegrationscli"
 │   └── cli.py                  # CLI implementation using Click
