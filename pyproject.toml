@@ -20,4 +20,4 @@ classifiers = [
 urls = { Homepage = "https://github.com/veldakai/azure-integrations-cli" }
 
 [project.scripts]
-azints = "azints.__main__:cli"
+azints = "azints.cli:cli"
