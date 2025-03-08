@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-integrations-cli"
+version = "0.1.0"  # Replace this with dynamic versioning if needed
+description = "A CLI tool to manage Azure Integration Services code"
+authors = [
+    { name = "Veldak", email = "veldak.video@github.com" }
+]
+dependencies = [
+    "click"
+]
+readme = "README.md"
+license = { text = "MIT" }  # Change if needed
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+urls = { Homepage = "https://github.com/veldakai/azure-integrations-cli" }
+
+[project.scripts]
+azints = "azints.cli:cli"
